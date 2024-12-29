@@ -1,3 +1,5 @@
 npm run seeder
 
 rfce
+
+Hooks cannot use inside the function use only inside the component like useSelector and useNavigation

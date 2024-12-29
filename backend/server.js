@@ -1,9 +1,9 @@
 const app = require("./app");
-const dotenv = require("dotenv");
+
 const path = require("path");
 const connectDatabase = require("./config/database");
 
-dotenv.config({ path: path.join(__dirname, "config/config.env") }); //merge dotenv and config.env for use inside the environmental vaibale  in nodejs
+
 
 connectDatabase();
 
